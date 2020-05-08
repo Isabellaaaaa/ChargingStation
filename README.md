@@ -37,7 +37,6 @@
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
 
 
-![微信扫一扫](https://lin-xin.gitee.io/images/weixin.jpg)
 
 ## 特别鸣谢
 
