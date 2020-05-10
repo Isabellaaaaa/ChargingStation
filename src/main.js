@@ -9,6 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css'; // 默认主题
 import './assets/css/icon.css';
 import './components/common/directives';
 import 'babel-polyfill';
+import BaiduMap from 'vue-baidu-map';
 
 Vue.config.productionTip = false;
 Vue.use(VueI18n);
@@ -39,6 +40,11 @@ router.beforeEach((to, from, next) => {
             next();
         }
     }
+});
+
+//百度地图引入
+Vue.use(BaiduMap, {
+    ak: 'xBdXAWYQnbu2NcoZDYFDY33KhOyRMS9o'
 });
 
 new Vue({
